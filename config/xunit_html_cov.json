@@ -1,0 +1,4 @@
+{
+    "html" : "build/coverage/coverage.html",
+    "xml" : "build/coverage/coverage.xml"
+}
