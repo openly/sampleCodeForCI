@@ -4,6 +4,7 @@
   "description": "This is a sample code which is used for the testing of Go Continous Integration tool",
   "main": "src/app.coffee",
   "scripts": {
+    "start": "coffee src/app.coffee",
     "test": "node_modules/cucumber/bin/cucumber.js -f pretty",
     "unit_test": "node_modules/mocha/bin/mocha --recursive --compilers coffee:coffee-script/register -r should -r simock -R spec test/unit_test",
     "xunit_test": "XUNIT_FILE=build/xunit.xml node_modules/mocha/bin/mocha --recursive --compilers coffee:coffee-script/register  -r should -r simock -R xunit-file test/unit_test",
