@@ -2,7 +2,6 @@ applications=(
   'node'
   'coffee'
   'forever'
-  'asdf'
 )
 exitVal=0
 for app in ${applications[@]}
