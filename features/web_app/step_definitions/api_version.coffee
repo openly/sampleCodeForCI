@@ -12,7 +12,7 @@ versionSDWrapper = ->
     return
 
   @Then /^I should get the response with version number$/, (callback) ->
-    response.should.containEql('Web App with version 0.0.1')
+    response.should.containEql('Web App with version a0.0.1')
     callback()
     return
 

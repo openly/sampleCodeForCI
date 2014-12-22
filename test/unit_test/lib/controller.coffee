@@ -5,7 +5,7 @@ errorOnNoSetupRoutes = ()->
   
   errorFn = ()->
     contrObj.setupRoutes()
-  errorFn.should.not.throw()
+  errorFn.should.throw()
 
 describe 'Controller Super Class', ->
   it 'should throw error if the setupRoutes is not defined in subclass', errorOnNoSetupRoutes
